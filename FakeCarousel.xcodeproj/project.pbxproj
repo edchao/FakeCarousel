@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F36845391A8B042100B4BD66 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36845381A8B042100B4BD66 /* Common.swift */; };
+		F38AB5651A8C72FF00C147F9 /* introViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38AB5641A8C72FF00C147F9 /* introViewController.swift */; };
+		F3C8DCBF1A8E6839007E24A6 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8DCBE1A8E6839007E24A6 /* welcomeViewController.swift */; };
+		F3C8DCC11A91671D007E24A6 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8DCC01A91671D007E24A6 /* settingsViewController.swift */; };
+		F3C8DCC31A91675A007E24A6 /* conversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8DCC21A91675A007E24A6 /* conversationViewController.swift */; };
+		F3C8DCC51A917072007E24A6 /* gsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8DCC41A917072007E24A6 /* gsViewController.swift */; };
+		F3C8DCC91A917396007E24A6 /* fullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C8DCC81A917396007E24A6 /* fullScreenViewController.swift */; };
 		F3D2888F1A8A795800C62724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2888E1A8A795800C62724 /* AppDelegate.swift */; };
 		F3D288911A8A795800C62724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D288901A8A795800C62724 /* ViewController.swift */; };
 		F3D288941A8A795800C62724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D288921A8A795800C62724 /* Main.storyboard */; };
 		F3D288961A8A795800C62724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D288951A8A795800C62724 /* Images.xcassets */; };
 		F3D288991A8A795800C62724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D288971A8A795800C62724 /* LaunchScreen.xib */; };
 		F3D288A51A8A795800C62724 /* FakeCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D288A41A8A795800C62724 /* FakeCarouselTests.swift */; };
+		F3D288AF1A8A7B3300C62724 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D288AE1A8A7B3300C62724 /* FeedViewController.swift */; };
+		F3D288B11A8A7E3800C62724 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D288B01A8A7E3800C62724 /* signinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F36845381A8B042100B4BD66 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../Downloads/Common.swift; sourceTree = "<group>"; };
+		F38AB5641A8C72FF00C147F9 /* introViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introViewController.swift; sourceTree = "<group>"; };
+		F3C8DCBE1A8E6839007E24A6 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		F3C8DCC01A91671D007E24A6 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		F3C8DCC21A91675A007E24A6 /* conversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationViewController.swift; sourceTree = "<group>"; };
+		F3C8DCC41A917072007E24A6 /* gsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gsViewController.swift; sourceTree = "<group>"; };
+		F3C8DCC81A917396007E24A6 /* fullScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fullScreenViewController.swift; sourceTree = "<group>"; };
 		F3D288891A8A795800C62724 /* FakeCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D2888D1A8A795800C62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D2888E1A8A795800C62724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,8 @@
 		F3D2889E1A8A795800C62724 /* FakeCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D288A31A8A795800C62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D288A41A8A795800C62724 /* FakeCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCarouselTests.swift; sourceTree = "<group>"; };
+		F3D288AE1A8A7B3300C62724 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F3D288B01A8A7E3800C62724 /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +95,13 @@
 		F3D2888B1A8A795800C62724 /* FakeCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				F36845381A8B042100B4BD66 /* Common.swift */,
 				F3D2888E1A8A795800C62724 /* AppDelegate.swift */,
 				F3D288901A8A795800C62724 /* ViewController.swift */,
 				F3D288921A8A795800C62724 /* Main.storyboard */,
 				F3D288951A8A795800C62724 /* Images.xcassets */,
 				F3D288971A8A795800C62724 /* LaunchScreen.xib */,
+				F3D288B21A8A7E4D00C62724 /* ViewControllers */,
 				F3D2888C1A8A795800C62724 /* Supporting Files */,
 			);
 			path = FakeCarousel;
@@ -110,6 +130,21 @@
 				F3D288A31A8A795800C62724 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3D288B21A8A7E4D00C62724 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F38AB5641A8C72FF00C147F9 /* introViewController.swift */,
+				F3D288AE1A8A7B3300C62724 /* FeedViewController.swift */,
+				F3D288B01A8A7E3800C62724 /* signinViewController.swift */,
+				F3C8DCBE1A8E6839007E24A6 /* welcomeViewController.swift */,
+				F3C8DCC01A91671D007E24A6 /* settingsViewController.swift */,
+				F3C8DCC21A91675A007E24A6 /* conversationViewController.swift */,
+				F3C8DCC41A917072007E24A6 /* gsViewController.swift */,
+				F3C8DCC81A917396007E24A6 /* fullScreenViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D288B11A8A7E3800C62724 /* signinViewController.swift in Sources */,
+				F3C8DCC31A91675A007E24A6 /* conversationViewController.swift in Sources */,
 				F3D288911A8A795800C62724 /* ViewController.swift in Sources */,
+				F3C8DCC91A917396007E24A6 /* fullScreenViewController.swift in Sources */,
+				F3D288AF1A8A7B3300C62724 /* FeedViewController.swift in Sources */,
+				F36845391A8B042100B4BD66 /* Common.swift in Sources */,
 				F3D2888F1A8A795800C62724 /* AppDelegate.swift in Sources */,
+				F3C8DCC51A917072007E24A6 /* gsViewController.swift in Sources */,
+				F38AB5651A8C72FF00C147F9 /* introViewController.swift in Sources */,
+				F3C8DCBF1A8E6839007E24A6 /* welcomeViewController.swift in Sources */,
+				F3C8DCC11A91671D007E24A6 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 				F3D288AA1A8A795800C62724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D288AB1A8A795800C62724 /* Build configuration list for PBXNativeTarget "FakeCarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				F3D288AD1A8A795800C62724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

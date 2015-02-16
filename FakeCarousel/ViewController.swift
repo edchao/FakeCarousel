@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+var didFullScreen : Bool! = false
+var didWheel : Bool! = false
+var didSharePhoto : Bool! = false
 
+class ViewController: UIViewController {
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
